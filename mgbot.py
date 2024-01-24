@@ -19,7 +19,7 @@ bot = Client(
     api_id=int(os.environ.get("API_ID")),
     api_hash=os.environ.get("API_HASH")
 )
-
+python_command = "python-3.11.7" 
 
 @bot.on_message(filters.command(["start"]))
 async def start(bot, update):
